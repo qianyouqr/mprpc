@@ -1,0 +1,13 @@
+19:32:52 => [info]/root/cpp/mprpc/src/rpcprovider.ccNotifyService19service_name:FriendServiceRpc
+19:32:52 => [info]/root/cpp/mprpc/src/rpcprovider.ccNotifyService26method_name:GetFriendsList
+19:34:44 => [info]/root/cpp/mprpc/src/rpcprovider.ccNotifyService19service_name:FriendServiceRpc
+19:34:44 => [info]/root/cpp/mprpc/src/rpcprovider.ccNotifyService26method_name:GetFriendsList
+19:37:16 => [info]/root/cpp/mprpc/src/rpcprovider.ccNotifyService19service_name:FriendServiceRpc
+19:37:16 => [info]/root/cpp/mprpc/src/rpcprovider.ccNotifyService26method_name:GetFriendsList
+19:37:16 => [info]/root/cpp/mprpc/src/rpcprovider.ccRun66RpcProvider start service at ip:@ð­…ý port:8000
+19:37:16 => [info]/root/cpp/mprpc/src/rpcprovider.ccOnMessage124header_size: 36
+19:37:28 => [info]/root/cpp/mprpc/src/rpcprovider.ccOnMessage126rpc_header_str: 
+FriendServiceRpcGetFriendsList
+19:37:28 => [info]/root/cpp/mprpc/src/rpcprovider.ccOnMessage128service_name: FriendServiceRpc
+19:37:28 => [info]/root/cpp/mprpc/src/rpcprovider.ccOnMessage130method_name: GetFriendsList
+19:37:28 => [info]/root/cpp/mprpc/src/rpcprovider.ccOnMessage132args_str: è

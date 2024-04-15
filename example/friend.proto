@@ -1,0 +1,28 @@
+
+syntax = "proto3";
+
+package fixbug;
+// 定义 下面的选项，表示生成service服务类和rpc方法描述，默认不生成
+option cc_generic_services = true;
+message ResultCode
+{
+    int32 errcode = 1;
+    bytes errmsg = 2;
+}
+
+
+message GetFriendsListRequest
+{
+    uint32 id = 1;
+}
+
+message GetFriendsListResponse
+{
+    ResultCode result = 1;
+    repeated bytes friends = 2;
+}
+
+service FriendServiceRpc
+{
+    rpc GetFriendsList(GetFriendsListRequest) returns(GetFriendsListResponse);
+}
