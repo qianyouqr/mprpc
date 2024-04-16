@@ -150,6 +150,7 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
     
     // 生成rpc方法调用的请求request 和 响应response参数
     google::protobuf::Message *request = service->GetRequestPrototype(method).New();
+    // 反序列化
     if(!request->ParseFromString(args_str)){
         std::cout << "request parse error, content: " << args_str << std::endl;
         return;
